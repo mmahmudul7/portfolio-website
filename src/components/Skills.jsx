@@ -1,6 +1,8 @@
 import {skills} from "../data/skills";
 
 export default function Skills() {
+  const totalCards = Object.keys(skills).length;
+
   return (
     <section id="skills" className="py-16 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
@@ -11,7 +13,11 @@ export default function Skills() {
           {Object.entries(skills).map(([category, items], idx) => (
             <div
               key={idx}
-              className="p-6 bg-white border border-yellow-500 rounded-xl shadow-sm hover:shadow-lg transition"
+              // className="p-6 bg-white border border-yellow-500 rounded-xl shadow-sm hover:shadow-lg transition"
+              className={`
+                p-6 bg-white border rounded-xl shadow-sm hover:shadow-lg transition
+                ${idx >= totalCards - 2 ? "md:col-span-2" : ""}
+              `}
             >
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 {category}

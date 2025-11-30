@@ -46,4 +46,14 @@ export const skills = {
     "Adaptability",
     "Attention to Detail",
   ],
+  Languages: [
+    "English – Intermediate (Good comprehension, basic spoken communication)",
+    "Bengali – Native",
+    "Hindi & Urdu – Conversational",
+  ],
+  "Courses & Certifications": [
+    "CSE Fundamentals with Phitron – Phitron",
+    "Android App Development – MoICT",
+    "Computer Graphics Designing – Technical Training Centre (TTC)",
+  ],
 };
