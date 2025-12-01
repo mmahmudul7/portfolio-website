@@ -57,7 +57,7 @@ export default function Experiences() {
                 {exp.title}
               </h3>
 
-              <p className="text-gray-500 text-sm mt-1">{exp.company}</p>
+              <p className="text-gray-600 text-sm mt-1">{exp.company}</p>
               <p className="text-gray-400 text-xs mt-1">{exp.period}</p>
 
               <p className="mt-3 text-gray-700 text-sm">{exp.summary}</p>

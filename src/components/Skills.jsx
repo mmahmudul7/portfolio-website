@@ -6,16 +6,17 @@ export default function Skills() {
   return (
     <section id="skills" className="py-16 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-10">Skills</h2>
+        <h2 className="text-3xl font-bold text-center text-gray-900 mb-10">
+          Skills
+        </h2>
 
         {/* Grid Container */}
         <div className="grid md:grid-cols-2 gap-6">
           {Object.entries(skills).map(([category, items], idx) => (
             <div
               key={idx}
-              // className="p-6 bg-white border border-yellow-500 rounded-xl shadow-sm hover:shadow-lg transition"
               className={`
-                p-6 bg-white border rounded-xl shadow-sm hover:shadow-lg transition
+                p-6 bg-white border border-yellow-500 rounded-xl shadow-sm hover:shadow-lg transition
                 ${idx >= totalCards - 2 ? "md:col-span-2" : ""}
               `}
             >
@@ -27,7 +28,7 @@ export default function Skills() {
                 {items.map((skill, i) => (
                   <span
                     key={i}
-                    className="px-3 py-1 text-sm bg-yellow-50 border border-yellow-500 rounded-lg text-gray-900"
+                    className="px-3 py-1 text-sm bg-yellow-50 border border-yellow-500 rounded-lg text-gray-700"
                   >
                     {skill}
                   </span>

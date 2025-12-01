@@ -4,16 +4,16 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col-reverse md:flex-row justify-center items-center gap-10 px-6 md:px-20"
+      className="min-h-screen flex flex-col-reverse md:flex-row justify-center items-center gap-10 px-6 md:px-20 bg-gray-50"
     >
       {/* Left Side Text */}
       <div className="text-center md:text-left">
-        <p className="font-bold text-gray-700">Hi, I'm</p>
+        <p className="font-bold text-gray-800">Hi, I'm</p>
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
           <span className="text-yellow-600">Md. Mahmudul Hasan</span>
         </h1>
 
-        <p className="text-xl text-gray-600 font-bold mt-2">
+        <p className="text-xl text-gray-700 font-bold mt-2">
           Full-Stack Web Developer (Django + React)
         </p>
 
@@ -39,7 +39,7 @@ export default function Hero() {
           <a
             href="https://www.linkedin.com/in/mmahmudul7"
             target="_blank"
-            className="hover:text-yellow-600"
+            className="text-gray-900 hover:text-yellow-600"
           >
             <i className="fa-brands fa-linkedin"></i>
           </a>
@@ -47,7 +47,7 @@ export default function Hero() {
           <a
             href="https://github.com/mmahmudul7"
             target="_blank"
-            className="hover:text-yellow-600"
+            className=" text-gray-900 hover:text-yellow-600"
           >
             <i className="fa-brands fa-github"></i>
           </a>

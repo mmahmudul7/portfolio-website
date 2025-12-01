@@ -8,7 +8,7 @@ export default function ProjectCard({project}) {
         {project.tech?.map((t, i) => (
           <span
             key={i}
-            className="text-xs bg-yellow-50 px-2 py-1 rounded border border-yellow-900 text-gray-600"
+            className="text-xs bg-yellow-50 px-2 py-1 rounded border border-yellow-500 text-gray-700"
           >
             {t}
           </span>
