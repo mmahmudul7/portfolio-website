@@ -59,7 +59,7 @@ export default function Hero() {
         <img
           src={profilePic}
           alt="profile"
-          className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg border-4 border-yellow-600"
+          className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg border-4 border-yellow-500"
         />
       </div>
     </section>

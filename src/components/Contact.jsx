@@ -48,7 +48,7 @@ export default function Contact() {
                 type="text"
                 name="name"
                 required
-                className="w-full p-3 border border-amber-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                className="w-full p-3 border border-amber-500 rounded-lg bg-white focus:outline-none"
               />
             </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 required
-                className="w-full p-3 border border-amber-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                className="w-full p-3 border border-amber-500 bg-white rounded-lg focus:outline-none"
               />
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function Contact() {
               name="message"
               rows="5"
               required
-              className="w-full p-3 border border-amber-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
+              className="w-full p-3 border border-amber-500 bg-white rounded-lg focus:outline-none"
             ></textarea>
           </div>
 
